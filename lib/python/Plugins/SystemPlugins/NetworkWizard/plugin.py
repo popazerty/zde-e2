@@ -1,5 +1,6 @@
 from Screens.Screen import Screen
 from Plugins.Plugin import PluginDescriptor
+from Tools.Directories import SCOPE_SKIN_IMAGE, resolveFilename
 from Components.config import getConfigListEntry, config, ConfigBoolean
 
 config.misc.firstrun = ConfigBoolean(default = True)
