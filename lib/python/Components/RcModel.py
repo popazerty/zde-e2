@@ -1,5 +1,6 @@
 import os
 from Tools.HardwareInfo import HardwareInfo
+from boxbranding import getBoxType, getMachineName, getMachineBrand, getMachineBuild
 from Tools.Directories import SCOPE_SKIN, resolveFilename
 
 class RcModel:
